@@ -58,6 +58,10 @@ p {
 }
 .app-description {
   text-align: left;
+  margin-bottom: 50px;
+}
+.homepage-image-place {
+  margin-bottom: 50px;
 }
 .app-name {
   padding: 20px;
@@ -99,12 +103,22 @@ p {
   h3 {
     font-size: 15px;
   }
-  .homepage-image {
+  .homepage-image-place {
     display: none;
   }
   .app-description {
     font-size: 15px;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
+  }
+  .launch-app-link {
+    margin: 50px 0 auto;
+    padding: auto;
+  }
+  .app-name {
+    padding: 10px;
+  }
+  .app-description-paragraph {
+    padding: 10px 15px;
   }
 }
