@@ -56,15 +56,14 @@ p {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
+.app-description {
+  text-align: left;
 }
-
-.about-paragraph {
-  margin: 30px 0;
+.app-name {
+  padding: 20px;
+}
+.launch-app-link {
+  margin: 60px 0 100px 20px;
 }
 
 .about-paragraphs p {
@@ -84,4 +83,19 @@ p {
 }
 .flag-emoji {
   width: 30px;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .homepage-image {
+    display: none;
+  }
 }
