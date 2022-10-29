@@ -10,11 +10,11 @@ body {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 56px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 42px;
 }
 
 h3 {
@@ -98,7 +98,7 @@ p {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 50px;
+    font-size: 22px;
   }
   h2 {
     font-size: 30px;
@@ -126,11 +126,11 @@ p {
   }
   #contact {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 80px;
   }
   .email-link {
-    font-size: 24px;
+    font-size: 20px;
   }
   .about-image {
     margin-bottom: 20px;
