@@ -47,6 +47,9 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.primary-link:hover {
+  color: white;
+}
 
 .secondary-link {
   border-radius: 4px;
@@ -115,8 +118,9 @@ p {
     margin-bottom: 30px;
   }
   .launch-app-link {
-    margin: 50px 0 auto;
-    padding: auto;
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
   .app-name {
     padding: 10px;
